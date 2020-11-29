@@ -138,23 +138,7 @@ $$
 算法的时间复杂度（**常对幂指阶**）：
 
 $$
-O(1)
-\lt
-O(log_2n)
-\lt
-O(n)
-\lt
-O(nlog_2n)
-\lt
-O(n^2)
-\lt
-O(n^3)
-\lt
-O(2^n)
-\lt
-O(n!)
-\lt
-O(n^n)
+O(1) < O(log_2n) < O(n) < O(nlog_2n) < O(n^2) < O(n^3) < O(2^n) < O(n!) < O(n^n)
 $$
 
 - 结论一：顺序执行的代码只会影响常数项，可以忽略。
@@ -229,23 +213,7 @@ $$
 常对幂指阶：
 
 $$
-O(1)
-\lt
-O(log_2n)
-\lt
-O(n)
-\lt
-O(nlog_2n)
-\lt
-O(n^2)
-\lt
-O(n^3)
-\lt
-O(2^n)
-\lt
-O(n!)
-\lt
-O(n^n)
+O(1) < O(log_2n) < O(n) < O(nlog_2n) < O(n^2) < O(n^3) < O(2^n) < O(n!) < O(n^n)
 $$
 
 ## 3. [线性表](ch2/README.md)
