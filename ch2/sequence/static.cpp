@@ -39,6 +39,7 @@ bool ListInsert(SqList &L, int i, int e)
     return true;
 }
 
+// 删除元素操作
 bool ListDelete(SqList &L, int i, int &e)
 {
     // i 的值必须是合法的位序
@@ -54,6 +55,30 @@ bool ListDelete(SqList &L, int i, int &e)
     }
     L.length--;
     return true;
+}
+
+// 按位查找
+int GetElem(SqList L, int i)
+{
+    // i 的值必须是合法的位序
+    if (i < 1 || i > L.length)
+    {
+        return false;
+    }
+    return L.data[i - 1];
+}
+
+// 按值查找
+int LocateElem(SqList L, int e)
+{
+    for (int i = 0; i < L.length; i++)
+    {
+        if (L.data[i] == e)
+        {
+            return i + 1;
+        }
+    }
+    return 0;
 }
 
 int main()
@@ -73,7 +98,7 @@ int main()
     }
     // 测试删除操作
     int e = -1;
-    if (ListDelete(L, 7, e))
+    if (ListDelete(L, 5, e))
     {
         printf("已删除的元素值为=%d\n", e);
     }
@@ -86,5 +111,9 @@ int main()
     {
         printf("data[%d]=%d\n", i, L.data[i]);
     }
+    // 测试按位查找
+    printf("位序为4的元素值为=%d\n", GetElem(L, 4));
+    // 测试按值查找
+    printf("元素值为4的元素位序为=%d\n", LocateElem(L, 4));
     return 0;
 }
