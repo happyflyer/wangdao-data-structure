@@ -217,3 +217,5 @@ O(1) < O(log_2n) < O(n) < O(nlog_2n) < O(n^2) < O(n^3) < O(2^n) < O(n!) < O(n^n)
 $$
 
 ## 3. [线性表](ch2/README.md)
+
+## 4. [栈和队列](ch3/README.md)
