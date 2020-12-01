@@ -155,15 +155,17 @@ bool StackFull(ShStack S)
 
 ## 2. 链栈
 
+### 2.1. 定义
+
 ```cpp
 typedef struct LNode
 {
-    int data;
+    ElemType data;
     struct LNode *next;
 } LNode, *LinkStack;
 ```
 
-### 2.1. 初始化
+### 2.2. 初始化
 
 ```cpp
 // 初始化一个链栈，带头结点
@@ -187,7 +189,7 @@ bool StackEmpty(LinkStack S)
 }
 ```
 
-### 2.2. 进栈
+### 2.3. 进栈
 
 ```cpp
 // 进栈
@@ -201,7 +203,7 @@ bool Push(LinkStack &S, int x)
 }
 ```
 
-### 2.3. 出栈
+### 2.4. 出栈
 
 ```cpp
 // 出栈
@@ -219,7 +221,7 @@ bool Pop(LinkStack &S, int &x)
 }
 ```
 
-### 2.4. 获取栈顶元素
+### 2.5. 获取栈顶元素
 
 ```cpp
 // 读取栈顶元素
