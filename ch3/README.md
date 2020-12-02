@@ -53,7 +53,7 @@ $$
 
 $$
 \frac{1}{5+1} C^{5}_{10}
-=\frac{10*9*8*7*6}{6*5*4*3*2*1}
+=\frac{10 \times 9 \times 8 \times 7 \times 6}{6 \times 5 \times 4 \times 3 \times 2 \times 1}
 =42
 $$
 

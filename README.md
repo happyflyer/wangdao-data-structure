@@ -129,8 +129,8 @@ $$
 $$
 \begin{aligned}
 T_3(n)
-&=n^3+n^2log_2n \\
-&=O(n^3)+O(n^2log_2n) \\
+&=n^3+n^2log_2n\\
+&=O(n^3)+O(n^2log_2n)\\
 &=O(n^3)
 \end{aligned}
 $$
@@ -219,3 +219,5 @@ $$
 ## 3. [线性表](ch2/README.md)
 
 ## 4. [栈和队列](ch3/README.md)
+
+## 5. [串](ch4/README.md)
