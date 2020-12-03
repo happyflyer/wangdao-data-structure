@@ -406,7 +406,7 @@ int LocateElem(LinkList L, int e)
     {
         p = p->next;
     }
-    // 找到后返回该节点指针，否则返回 NULL
+    // 找到后返回该结点指针，否则返回 NULL
     return p;
 }
 ```
