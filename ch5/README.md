@@ -83,3 +83,40 @@ $n$ 个结点的树中只有 $n-1$ 条边。
 - 后序线索二叉树
 
 #### 4.7.2. [线索二叉树的构造](binary-tree-traversal/README.md#72-线索二叉树的构造)
+
+## 5. [树的存储结构](tree-storage/README.md#树的存储结构)
+
+- [双亲表示法](tree-storage/README.md#1-双亲表示法)
+- [孩子表示法](tree-storage/README.md#2-孩子表示法)
+- [孩子兄弟表示法](tree-storage/README.md#3-孩子兄弟表示法)
+
+|                | 优点                                             | 缺点                     |
+| -------------- | ------------------------------------------------ | ------------------------ |
+| 双亲表示法     | 寻找结点的双亲结点效率高                         | 寻找结点的孩子结点效率低 |
+| 孩子表示法     | 寻找结点的孩子结点效率高                         | 寻找结点的双亲结点效率低 |
+| 孩子兄弟表示法 | 寻找结点的孩子结点效率高，方便实现树转换为二叉树 | 寻找结点的双亲结点效率低 |
+
+## 6. [树与森林](tree-traversal/README.md#树与森林)
+
+- [树与二叉树的转换](tree-traversal/README.md#1-树与二叉树的转换)
+- [森林与二叉树的转换](tree-traversal/README.md#2-森林与二叉树的转换)
+
+[树的遍历](tree-traversal/README.md#3-树的遍历)
+
+- [先根遍历](tree-traversal/README.md#31-先根遍历)
+- [后根遍历](tree-traversal/README.md#32-后根遍历)
+- [层次遍历](tree-traversal/README.md#33-层次遍历)
+
+[森林的遍历](tree-traversal/README.md#4-森林的遍历)
+
+- [先序遍历](tree-traversal/README.md#41-先序遍历)
+- [中序遍历](tree-traversal/README.md#42-中序遍历)
+
+| 树       | 森林     | 二叉树   |
+| -------- | -------- | -------- |
+| 先根遍历 | 先序遍历 | 先序遍历 |
+| 后根遍历 | 中序遍历 | 中序遍历 |
+
+## 7. [树的应用](tree-applications/README.md)
+
+- [并查集](tree-applications/README.md#1-并查集)

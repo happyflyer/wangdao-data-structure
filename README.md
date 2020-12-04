@@ -276,19 +276,19 @@ $$
 
 ## 6. [树与二叉树](ch5/README.md#树与二叉树)
 
-- 二叉树
-  - 二叉树的基本概念
-    - 定义及特点
-    - 二叉树的存储结构
-  - 二叉树的遍历
-  - 搜索二叉树
-  - 二叉树的应用
-    - 二叉排序树
-    - 平衡二叉树
-    - 哈夫曼树和哈夫曼编码
-- 树和森林
-  - 树的基本概念
-  - 树的存储结构
-  - 树和森林的遍历
-  - 树和森林及二叉树的转换
-  - 树的应用：查并集
+- [二叉树](ch5/binary-tree/README.md#二叉树)
+  - [二叉树的基本概念](ch5/binary-tree/README.md#二叉树)
+    - [定义及特点](ch5/binary-tree/README.md#4-二叉树的性质)
+    - [二叉树的存储结构](ch5/binary-tree-storage/README.md#二叉树的存储结构)
+  - [二叉树的遍历](ch5/binary-tree-traversal/README.md#二叉树的遍历)
+  - [线索二叉树](ch5/binary-tree-traversal/README.md#7-线索二叉树)
+  - [二叉树的应用]()
+    - [二叉排序树]()
+    - [平衡二叉树]()
+    - [哈夫曼树和哈夫曼编码]()
+- [树和森林](ch5/README.md#树与二叉树)
+  - [树的基本概念](ch5/README.md#1-树的基本概念)
+  - [树的存储结构](ch5/tree-storage/README.md#树的存储结构)
+  - [树和森林的遍历](ch5/tree-traversal/README.md#树与森林)
+  - [树和森林及二叉树的转换](ch5/tree-traversal/README.md#树与森林)
+  - [树的应用：查并集](ch5/tree-applications/README.md#1-并查集)
