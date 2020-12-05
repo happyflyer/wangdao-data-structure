@@ -120,3 +120,6 @@ $n$ 个结点的树中只有 $n-1$ 条边。
 ## 7. [树的应用](tree-applications/README.md)
 
 - [并查集](tree-applications/README.md#1-并查集)
+- [二叉排序树](binary-tree-applications/README.md#1-二叉排序树)
+- [平衡二叉树](binary-tree-applications/README.md#2-平衡二叉树)
+- [哈夫曼树和哈夫曼编码](binary-tree-applications/README.md#3-哈夫曼树)
