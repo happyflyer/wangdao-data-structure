@@ -315,3 +315,16 @@ $$
   - [最短路径](ch6/applications/README.md#2-最短路径)
   - [拓扑排序](ch6/applications/README.md#3-拓扑排序)
   - [关键路径](ch6/applications/README.md#4-关键路径)
+
+## 8. [查找](ch7/README.md#查找)
+
+- [查找](ch7/README.md#1-基本概念)
+  - [顺序查找](ch7/README.md#2-顺序查找)
+  - [折半查找](ch7/README.md#3-折半查找)
+  - [分块查找](ch7/README.md#4-分块查找)
+  - [B 树](ch7/README.md#5-B-树)
+  - [B+树](ch7/README.md#6-B+-树)
+  - [散列表](ch7/README.md#7-散列表)
+- [串](ch4/README.md#串)
+  - [基本概念](ch4/README.md#1-定义)
+  - [模式匹配(KMP)](ch4/README.md#6-KMP-算法)
