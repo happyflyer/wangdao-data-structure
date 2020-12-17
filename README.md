@@ -319,12 +319,34 @@ $$
 ## 8. [查找](ch7/README.md#查找)
 
 - [查找](ch7/README.md#1-基本概念)
-  - [顺序查找](ch7/README.md#2-顺序查找)
-  - [折半查找](ch7/README.md#3-折半查找)
-  - [分块查找](ch7/README.md#4-分块查找)
-  - [B 树](ch7/README.md#5-B-树)
-  - [B+树](ch7/README.md#6-B+-树)
-  - [散列表](ch7/README.md#7-散列表)
+  - [顺序查找](ch7/sequential-search/README.md#顺序查找)
+  - [折半查找](ch7/binary-search/README.md#折半查找)
+  - [分块查找](ch7/block-search/README.md#分块查找)
+  - [B 树](ch7/b-tree/README.md#B-树)
+  - [B+ 树](ch7/b-plus-tree/README.md#B+-树)
+  - [散列表](ch7/hash-table/README.md#散列表)
 - [串](ch4/README.md#串)
   - [基本概念](ch4/README.md#1-定义)
   - [模式匹配(KMP)](ch4/README.md#6-KMP-算法)
+
+## 9. [排序](ch8/README.md#排序)
+
+- 基本概念
+  - 排序定义
+  - 时空复杂度
+  - 稳定性
+- 内部排序
+  - 插入排序
+    - 直接插入排序
+    - 折半插入排序
+    - 希尔排序
+  - 交换排序
+    - 冒泡排序
+    - 快速排序
+  - 选择排序
+    - 简单选择排序
+    - 堆排序
+  - 归并排序
+  - 基数排序
+- 外部排序
+  - 多路归并排序
