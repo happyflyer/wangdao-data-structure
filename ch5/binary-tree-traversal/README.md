@@ -153,19 +153,19 @@ void levelOrder(BiTree T)
 1. 若无左子树，则将左指针指向其前驱结点；
 2. 若无右子树，则将右指针指向其后继结点。
 
-![二叉树遍历举例](binary-tree-traversal-example.png)
+![二叉树遍历举例](binary-tree-traversal-example.jpg)
 
 - 先序遍历：$124536$
 
-![先序线索二叉树](clue-binary-tree-with-preorder-traversal.png)
+![先序线索二叉树](clue-binary-tree-with-preorder-traversal.jpg)
 
 - 中序遍历：$425163$
 
-![中序线索二叉树](clue-binary-tree-with-inorder-traversal.png)
+![中序线索二叉树](clue-binary-tree-with-inorder-traversal.jpg)
 
 - 后序遍历：$452631$
 
-![后序线索二叉树](clue-binary-tree-with-postorder-traversal.png)
+![后序线索二叉树](clue-binary-tree-with-postorder-traversal.jpg)
 
 线索二叉树的结点结构
 
@@ -191,7 +191,7 @@ typedef struct ThreadNode
 
 这种结点结构构成的二叉链表作为二叉树的存储结构，称为**线索链表**。
 
-![三种线索二叉树](three-kinds-of-clue-binary-trees.png)
+![三种线索二叉树](three-kinds-of-clue-binary-trees.jpg)
 
 ### 7.2. 线索二叉树的构造
 
@@ -245,9 +245,9 @@ void CreateInThread(ThreadTree T)
 }
 ```
 
-![中序线索二叉树的线索化](cueing-of-inorder-clue-binary-tree.png)
+![中序线索二叉树的线索化](cueing-of-inorder-clue-binary-tree.jpg)
 
-![中序线索二叉树的线索化2](cueing-of-inorder-clue-binary-tree2.png)
+![中序线索二叉树的线索化2](cueing-of-inorder-clue-binary-tree2.jpg)
 
 ```cpp
 // p 为线索二叉树的根结点

@@ -19,61 +19,61 @@ A[i][j]=
 \end{cases}
 $$
 
-![邻接矩阵1](adjacency-matrix1.png)
+![邻接矩阵1](adjacency-matrix1.jpg)
 
-![邻接矩阵2](adjacency-matrix2.png)
+![邻接矩阵2](adjacency-matrix2.jpg)
 
-![邻接矩阵3](adjacency-matrix3.png)
+![邻接矩阵3](adjacency-matrix3.jpg)
 
-![邻接矩阵4](adjacency-matrix4.png)
+![邻接矩阵4](adjacency-matrix4.jpg)
 
-![邻接矩阵5](adjacency-matrix5.png)
+![邻接矩阵5](adjacency-matrix5.jpg)
 
-![邻接矩阵5-2](adjacency-matrix5-2.png)
+![邻接矩阵5-2](adjacency-matrix5-2.jpg)
 
-![邻接矩阵5-3](adjacency-matrix5-3.png)
+![邻接矩阵5-3](adjacency-matrix5-3.jpg)
 
 - 邻接矩阵法的空间复杂度为：$O(n^2)$，适用于稠密图。
 - 无向图的邻接矩阵为对称矩阵。
 - 无向图中第 $i$ 行（或第 $i$ 列）非 $0$ 元素（非正无穷）的个数为第 $i$ 个顶点的度。
 - 有向图中第 $i$ 行（第 $i$ 列）非 $0$ 元素（非正无穷）的个数为第 $i$ 个顶点的出度（入度）。
 
-![邻接矩阵6](adjacency-matrix6.png)
+![邻接矩阵6](adjacency-matrix6.jpg)
 
-![邻接矩阵7](adjacency-matrix7.png)
+![邻接矩阵7](adjacency-matrix7.jpg)
 
 ## 2. 邻接表法
 
 邻接矩阵法存储稀疏图会有很多空间浪费。
 
-![邻接表1](adjacency-list1.png)
+![邻接表1](adjacency-list1.jpg)
 
-![邻接表2](adjacency-list2.png)
+![邻接表2](adjacency-list2.jpg)
 
-![邻接表3](adjacency-list3.png)
+![邻接表3](adjacency-list3.jpg)
 
-![邻接表4](adjacency-list4.png)
+![邻接表4](adjacency-list4.jpg)
 
-![邻接表5](adjacency-list5.png)
+![邻接表5](adjacency-list5.jpg)
 
-![邻接表6](adjacency-list6.png)
+![邻接表6](adjacency-list6.jpg)
 
 ## 3. 十字链表
 
 在邻接表中寻找所有的出边（以该顶点为弧尾的弧）非常容易，但是寻找某个顶点的入边非常困难，需要遍历整个边表。
 
-![十字链表1](cross-list1.png)
+![十字链表1](cross-list1.jpg)
 
-![十字链表2](cross-list2.png)
+![十字链表2](cross-list2.jpg)
 
-![十字链表3](cross-list3.png)
+![十字链表3](cross-list3.jpg)
 
 ## 4. 邻接多重表
 
-![邻接多重表1](adjacency-multiple-list1.png)
+![邻接多重表1](adjacency-multiple-list1.jpg)
 
-![邻接多重表2](adjacency-multiple-list2.png)
+![邻接多重表2](adjacency-multiple-list2.jpg)
 
-![邻接多重表3](adjacency-multiple-list3.png)
+![邻接多重表3](adjacency-multiple-list3.jpg)
 
-![邻接多重表4](adjacency-multiple-list4.png)
+![邻接多重表4](adjacency-multiple-list4.jpg)

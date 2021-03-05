@@ -17,7 +17,7 @@ $\left \vert V \right \vert$ 表示图 $G$ 中顶点的个数，也称图 $G$ �
 
 $\left \vert E \right \vert$ 表示图 $G$ 中边的条数。
 
-![图](graph.png)
+![图](graph.jpg)
 
 $$
 V=\{A,B,C,D,E\},\left \vert V \right \vert=5

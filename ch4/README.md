@@ -55,7 +55,7 @@ N="   "
 
 ### 2.1. 编码
 
-![ASCII 编码](ascii.png)
+![ASCII 编码](ascii.jpg)
 
 任何数据存到计算机中一定是二进制数。
 
@@ -110,7 +110,7 @@ S.length = 0;
 
 #### 3.1.3. 顺序存储的实现
 
-![顺序存储实现](sequence-storage.png)
+![顺序存储实现](sequence-storage.jpg)
 
 ### 3.2. 链式存储
 

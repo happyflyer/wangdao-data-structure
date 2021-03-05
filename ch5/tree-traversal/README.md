@@ -20,7 +20,7 @@
 
 **树的先根遍历序列与这棵树的对应二叉树的先序遍历序列相同。**
 
-![树的先根遍历](tree-preorder-traversal.png)
+![树的先根遍历](tree-preorder-traversal.jpg)
 
 ### 3.2. 后根遍历
 
@@ -28,7 +28,7 @@
 
 **树的后根遍历序列与这棵树的对应二叉树的中序遍历序列相同。**
 
-![树的后根遍历](tree-postorder-traversal.png)
+![树的后根遍历](tree-postorder-traversal.jpg)
 
 ### 3.3. 层次遍历
 
@@ -44,7 +44,7 @@
 
 **森林的先序遍历序列与森林对应二叉树的先序遍历序列相同。**
 
-![森林的中序遍历](forest-preorder-traversal.png)
+![森林的中序遍历](forest-preorder-traversal.jpg)
 
 ### 4.2. 中序遍历
 
@@ -56,4 +56,4 @@
 
 **森林的中序遍历序列与森林对应二叉树的中序遍历序列相同。**
 
-![森林中序遍历](forest-inorder-traversal.png)
+![森林中序遍历](forest-inorder-traversal.jpg)

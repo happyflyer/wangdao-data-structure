@@ -6,15 +6,15 @@
 - 时空复杂度
 - 稳定性
 
-![排序基本概念1](concept1.png)
+![排序基本概念1](concept1.jpg)
 
-![排序基本概念2](concept2.png)
+![排序基本概念2](concept2.jpg)
 
-![排序基本概念3](concept3.png)
+![排序基本概念3](concept3.jpg)
 
-![排序基本概念4](concept4.png)
+![排序基本概念4](concept4.jpg)
 
-![排序基本概念5](concept5.png)
+![排序基本概念5](concept5.jpg)
 
 ## 2. 内部排序算法
 
@@ -28,11 +28,11 @@
 - [归并排序](merge-sort/README.md#归并排序)
 - [基数排序](cardinal-sort/README.md#基数排序)
 
-![内部排序算法总结比较1](summary1.png)
+![内部排序算法总结比较1](summary1.jpg)
 
-![内部排序算法总结比较2](summary2.png)
+![内部排序算法总结比较2](summary2.jpg)
 
-![内部排序算法总结比较3](summary3.png)
+![内部排序算法总结比较3](summary3.jpg)
 
 ## 3. [外部排序](external-sort/README.md#外部排序)
 

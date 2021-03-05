@@ -2,9 +2,9 @@
 
 ## 1. 基本概念
 
-![查找基本概念1](concept1.png)
+![查找基本概念1](concept1.jpg)
 
-![查找基本概念2](concept2.png)
+![查找基本概念2](concept2.jpg)
 
 ## 2. [顺序查找](sequential-search/README.md#顺序查找)
 
@@ -18,4 +18,4 @@
 
 ## 7. [散列表](hash-table/README.md#散列表)
 
-![散列表17](hash-table17.png)
+![散列表17](hash-table17.jpg)

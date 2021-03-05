@@ -20,7 +20,7 @@ typedef struct
 } PTree;
 ```
 
-![双亲表示法](parental-representation.png)
+![双亲表示法](parental-representation.jpg)
 
 ## 2. 孩子表示法
 
@@ -45,7 +45,7 @@ typedef struct
 } CTree;
 ```
 
-![孩子表示法](child-representation.png)
+![孩子表示法](child-representation.jpg)
 
 ## 3. 孩子兄弟表示法
 
@@ -59,4 +59,4 @@ typedef struct CSNode
 } CSNode, CSTree;
 ```
 
-![孩子兄弟表示法](child-brother-representation.png)
+![孩子兄弟表示法](child-brother-representation.jpg)

@@ -11,7 +11,7 @@
 - 遇到左括号就入栈。
 - 遇到右括号，就出栈一个左括号。
 
-![括号匹配算法流程图](bracket-matching-flowchart.png)
+![括号匹配算法流程图](bracket-matching-flowchart.jpg)
 
 实现思路：
 

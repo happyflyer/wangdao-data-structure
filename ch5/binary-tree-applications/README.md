@@ -106,7 +106,7 @@ void Create_BST(BiTree &T, KetType str[], int n)
 - 若被删除结点 $z$ 只有一棵子树，则让 $z$ 的子树成为 $z$ 父结点的子树，代替 $z$ 结点。
 - 若被删除结点 $z$ 有两棵子树，则让 $z$ 的中序序列直接后继代替 $z$，并删去直接后继结点。
 
-![删除二叉排序树上的结点](delete-node-from-binary-sort-tree.png)
+![删除二叉排序树上的结点](delete-node-from-binary-sort-tree.jpg)
 
 在二叉排序树中删除并插入某结点，得到的二叉排序树是否与原来相同？（可能相同，也可能不同）
 
@@ -114,7 +114,7 @@ void Create_BST(BiTree &T, KetType str[], int n)
 
 平均查找长度（ASL）取决于树的高度。
 
-![二叉排序树的查找效率](search-efficiency-of-binary-sort-tree.png)
+![二叉排序树的查找效率](search-efficiency-of-binary-sort-tree.jpg)
 
 ## 2. 平衡二叉树
 
@@ -124,9 +124,9 @@ $$
 平衡因子=左子树高度-右子树高度
 $$
 
-![平衡二叉树1](balanced-binary-tree1.png)
+![平衡二叉树1](balanced-binary-tree1.jpg)
 
-![平衡二叉树2](balanced-binary-tree2.png)
+![平衡二叉树2](balanced-binary-tree2.jpg)
 
 高度为 $h$ 的最小平衡二叉树的结点数 $N_h$。
 
@@ -156,7 +156,7 @@ $$
 - 且左子树与右子树高度差的绝对值小于等于 $1$；
 - 则平衡。
 
-![平衡二叉树3](balanced-binary-tree3.png)
+![平衡二叉树3](balanced-binary-tree3.jpg)
 
 - $b$ 表示该结点的平衡性。
 - $h$ 表示该结点的高度。
@@ -203,31 +203,31 @@ void Judge_AVL(BiTree bt, int &balance, int &h)
 
 先插入，后调整。**每次调整最小不平衡子树。**
 
-![平衡二叉树4](balanced-binary-tree4.png)
+![平衡二叉树4](balanced-binary-tree4.jpg)
 
 #### 2.2.1. LL 平衡旋转
 
-![平衡二叉树5](balanced-binary-tree5.png)
+![平衡二叉树5](balanced-binary-tree5.jpg)
 
-![平衡二叉树6](balanced-binary-tree6.png)
+![平衡二叉树6](balanced-binary-tree6.jpg)
 
 #### 2.2.2. RR 平衡旋转
 
-![平衡二叉树7](balanced-binary-tree7.png)
+![平衡二叉树7](balanced-binary-tree7.jpg)
 
-![平衡二叉树8](balanced-binary-tree8.png)
+![平衡二叉树8](balanced-binary-tree8.jpg)
 
 #### 2.2.3. LR 平衡旋转
 
-![平衡二叉树9](balanced-binary-tree9.png)
+![平衡二叉树9](balanced-binary-tree9.jpg)
 
-![平衡二叉树10](balanced-binary-tree10.png)
+![平衡二叉树10](balanced-binary-tree10.jpg)
 
 #### 2.2.4. RL 平衡旋转
 
-![平衡二叉树11](balanced-binary-tree11.png)
+![平衡二叉树11](balanced-binary-tree11.jpg)
 
-![平衡二叉树12](balanced-binary-tree12.png)
+![平衡二叉树12](balanced-binary-tree12.jpg)
 
 ## 3. 哈夫曼树
 
@@ -242,7 +242,7 @@ $$
 WPL=\sum_{i=0}^nw_il_i
 $$
 
-![哈夫曼树1](huffman-tree1.png)
+![哈夫曼树1](huffman-tree1.jpg)
 
 哈夫曼树，也称最优二叉树，含有 $n$ 个带权叶子结点带权路径长度最小的二叉树。
 
@@ -253,7 +253,7 @@ $$
 3. 从 $F$ 中删除这两个树，并将新生成的树加入到 $F$ 中；
 4. 重复 2、3 步骤，直到 $F$ 中只有一棵树为止。
 
-![哈夫曼树2](huffman-tree2.png)
+![哈夫曼树2](huffman-tree2.jpg)
 
 ### 3.2. 性质
 
@@ -264,8 +264,8 @@ $$
 
 ### 3.3. 编码问题
 
-![哈夫曼树3](huffman-tree3.png)
+![哈夫曼树3](huffman-tree3.jpg)
 
-![哈夫曼树4](huffman-tree4.png)
+![哈夫曼树4](huffman-tree4.jpg)
 
-![哈夫曼树5](huffman-tree5.png)
+![哈夫曼树5](huffman-tree5.jpg)

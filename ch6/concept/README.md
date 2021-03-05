@@ -2,82 +2,82 @@
 
 ## 1. 无向图 & 有向图
 
-![图2](graph2.png)
+![图2](graph2.jpg)
 
 ## 2. 简单图 & 多重图
 
-![图3](graph3.png)
+![图3](graph3.jpg)
 
 ## 3. 完全图
 
 - 无向完全图
 - 有向完全图
 
-![图4](graph4.png)
+![图4](graph4.jpg)
 
 ## 4. 子图
 
 - 与原图相同也成为子图。
 - 只有顶点也是子图
 
-![图5](graph5.png)
+![图5](graph5.jpg)
 
-![图5-2](graph5-2.png)
+![图5-2](graph5-2.jpg)
 
 ## 5. 连通 & 强连通
 
-![图6](graph6.png)
+![图6](graph6.jpg)
 
 ## 6. 连通图 & 强连通图
 
-![图7](graph7.png)
+![图7](graph7.jpg)
 
-![图8](graph8.png)
+![图8](graph8.jpg)
 
 ## 7. 连通分量 & 强连通分量
 
-![图9](graph9.png)
+![图9](graph9.jpg)
 
-![图10](graph10.png)
+![图10](graph10.jpg)
 
-![图11](graph11.png)
+![图11](graph11.jpg)
 
 ## 8. 极小连通子图
 
-![图12](graph12.png)
+![图12](graph12.jpg)
 
 ## 9. 生成树、生成森林
 
-![图13](graph13.png)
+![图13](graph13.jpg)
 
-![图14](graph14.png)
+![图14](graph14.jpg)
 
 ## 10. 顶点的度
 
-![图15](graph15.png)
+![图15](graph15.jpg)
 
-![图15-2](graph15-2.png)
+![图15-2](graph15-2.jpg)
 
 ## 11. 网
 
-![图16](graph16.png)
+![图16](graph16.jpg)
 
 ## 12. 稠密图 & 稀疏图
 
-![图17](graph17.png)
+![图17](graph17.jpg)
 
 ## 13. 有向树
 
-![图18](graph18.png)
+![图18](graph18.jpg)
 
 ## 14. 路径
 
-![图19](graph19.png)
+![图19](graph19.jpg)
 
 ## 15. 路径长度
 
-![图20](graph20.png)
+![图20](graph20.jpg)
 
 ## 16. 回路
 
-![图21](graph21.png)
+![图21](graph21.jpg)
